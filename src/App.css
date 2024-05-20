@@ -9,12 +9,11 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 16s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,10 +21,23 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-image: url('../public/IMG_8523.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.App-link {
-  color: #61dafb;
+.Profile-picture {
+  height: 20vh;
+  width: 10vw;
+}
+ 
+.Bio {
+  height: fit-content;
+  width: fit-content;
+  padding: 40px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.748);
 }
 
 @keyframes App-logo-spin {
