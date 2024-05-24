@@ -20,7 +20,7 @@ function App() {
             applications. Click the links below to learn more or get in touch.
           </p>
           <div className="Contacts">
-            <p>
+            <p className="Links">
               <a
                 href="https://www.linkedin.com/in/michael-rowan-dev/"
                 target="blank"
