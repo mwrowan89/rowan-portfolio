@@ -28,7 +28,7 @@ function App() {
                 LinkedIn
               </a>{" "}
               ||
-              <a href="mailto:mwrowan89dev@gmail.com?subject=Hello%20there&body=I%20wanted%20to%20reach%20out%20to%20you%20because...">
+              <a href="mailto:mwrowan89dev@gmail.com?subject=Hello%20Michael&body=I%20wanted%20to%20reach%20out%20to%20you%20because...">
                 {" "}
                 Gmail{" "}
               </a>
