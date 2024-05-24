@@ -1,8 +1,11 @@
+.Projects {
+    background-color: rgba(0, 0, 0, 0.597);
+}
+
 .Header{
     color: black;
     font-size: 80px;
     display: flex;
     justify-content: center;
     text-decoration: underline;
-    background-color: rgba(0, 0, 0, 0.597);
 }
