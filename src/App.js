@@ -5,11 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="Bio">
-          <img
-            className="Profile-picture"
-            src="Goat.png"
-            alt="profile-pic"
-          />
+          <img className="Profile-picture" src="Goat.png" alt="profile-pic" />
           <h1>Michael Rowan</h1>
           <p>
             I am a versatile professional with a diverse background in teamwork,
@@ -24,8 +20,24 @@ function App() {
             applications. Click the links below to learn more or get in touch.
           </p>
           <div className="Contacts">
-            <p>LinkedIn || Gmail || GitHub || MySpace</p>
-            
+            <p>
+              <a
+                href="https://www.linkedin.com/in/michael-rowan-dev/"
+                target="blank"
+              >
+                LinkedIn
+              </a>{" "}
+              ||
+              <a href="mailto:mwrowan89dev@gmail.com?subject=Hello%20there&body=I%20wanted%20to%20reach%20out%20to%20you%20because...">
+                {" "}
+                Gmail{" "}
+              </a>
+              ||
+              <a href="https://github.com/mwrowan89" target="blank">
+                {" "}
+                GitHub{" "}
+              </a>
+            </p>
           </div>
         </div>
       </header>
