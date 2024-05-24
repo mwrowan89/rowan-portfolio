@@ -23,14 +23,16 @@
 }
 
 .Profile-picture {
-  height: 20vh;
+  height: 19vh;
   width: 10vw;
 }
  
 .Bio {
   height: fit-content;
   width: fit-content;
-  max-width: 35vw;
+  max-width: 30vw;
+  max-height: 63vh;
+  font-size: 20px;
   padding: 60px;
   margin: 100px;
   color: black;

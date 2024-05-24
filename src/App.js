@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
@@ -9,7 +8,7 @@ function App() {
           <img
             className="Profile-picture"
             src="Goat.png"
-            alt="profile picture"
+            alt="profile-pic"
           />
           <h1>Michael Rowan</h1>
           <p>
